@@ -477,8 +477,7 @@ def quiz_Player():
     #button4 = tk.Button(root, text='Exit', font=("Arial", int(screen_h * 0.015)), width=int(screen_h * 0.02), command=root.destroy())
     #button4.grid(row=1, column=0)
     play_sound('sound/hard.ogg')
-    if root.winfo_exists():
-        root.mainloop()
+    root.mainloop()
 
 def guesser(clear = False):
     play_sound('sound/swing.ogg')
